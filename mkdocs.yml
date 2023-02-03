@@ -1,0 +1,76 @@
+site_name: test-documentation-service-to-delete
+site_description: Test service to be deleted
+site_url: http://localhost:3000/docs/default/component/test-documentation-service-to-delete
+site_author: Sliide
+
+repo_url: https://github.com/tamarakaufler/test-documentation-service-to-delete/
+edit_uri: blob/master/
+
+theme:
+    name: mkdocs
+    locale: en
+    highlightjs: true
+    hljs_languages:
+        - yaml
+        - django
+
+nav:
+    - Software Architecture: README.md
+    - Headines V2: headlines-v2/arc42_template.md
+    - Content App: content-app/arc42_template.md
+    # - Protobuf documentation: docs.md
+    # - API requests example (GRPCUI): grpcui/collection.json
+    # - Getting Started: getting-started.md
+    # - User Guide: user-guide/
+    # - Developer Guide: dev-guide/
+    # - About:
+    #     - Release Notes: about/release-notes.md
+    #     - Contributing: about/contributing.md
+    #     - License: about/license.md
+
+# extra_css:
+#     - css/extra.css
+
+markdown_extensions:
+    - toc:
+        # permalink: []
+        permalink: True
+        separator: "-"
+    - attr_list
+    - def_list
+    - tables
+    - pymdownx.highlight:
+        use_pygments: false
+    - pymdownx.snippets
+    - pymdownx.superfences
+    # - callouts
+    # - mdx_gh_links:
+    #     user: mkdocs
+    #     repo: mkdocs
+    # - mkdocs-click
+
+# copyright: Copyright &copy; 2014 <a href="https://twitter.com/_tomchristie">Tom Christie</a>, Maintained by the <a href="/about/release-notes/#maintenance-team">MkDocs Team</a>.
+
+plugins:
+    - search
+    # - redirects:
+    #     redirect_maps:
+    #         user-guide/plugins.md: dev-guide/plugins.md
+    #         user-guide/custom-themes.md: dev-guide/themes.md
+    #         user-guide/styling-your-docs.md: user-guide/choosing-your-theme.md
+    # - autorefs
+    # - literate-nav:
+    #     nav_file: README.md
+    #     implicit_index: true
+    # - mkdocstrings:
+    #     handlers:
+    #       python:
+    #         options:
+    #           docstring_section_style: list
+    #           members_order: source
+    #           show_root_heading: true
+    #           show_source: false
+    #           show_signature_annotations: true
+
+# watch:
+#     - mkdocs

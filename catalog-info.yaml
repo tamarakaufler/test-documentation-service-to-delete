@@ -1,0 +1,49 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "test-documentation-service-to-delete"
+  description: "Test service to be deleted"
+  tags:
+    - go
+  annotations:
+    github.com/project-slug: tamarakaufler/test-documentation-service-to-delete
+    backstage.io/techdocs-ref: dir:.
+  links:
+    - url: https://github.com/tamarakaufler/test-documentation-service-to-delete
+      title: GitHub repo
+    - url: https://github.com/tamarakaufler/test-documentation-service-to-delete/blob/master/docs/docs.md
+      title: Protobuf documentation
+spec:
+  type: service
+  owner: platform
+  lifecycle: experimental
+  system: backend
+  # dependsOn:
+  #   - component:some-other-service (component)
+  #   - resource:some-db
+  #   - resource:some-sqs-queue
+  #   - resource:some-s3-bucket
+  # providesApis:
+  #   - test-documentation-service-to-delete
+# ---
+# apiVersion: backstage.io/v1alpha1
+# kind: API
+# metadata:
+#   name: test-documentation-service-to-delete
+#   description: test-documentation-service-to-delete API
+#   tags:
+#     - go
+#     - grpc
+# spec:
+#   type: grpc
+#   lifecycle: experimental
+#   owner: platform
+#   system: backend
+#   apiProvidedBy:
+#     - component:test-documentation-service-to-delete
+#   # apiConsumedBy:
+#   #   - component:headlines-api
+#   # consumesApis:
+#   #   - configuration-service
+#   definition:
+#     $text: https://github.com/tamarakaufler/test-documentation-service-to-delete/blob/master/api/proto/test-documentation-service-to-delete_api.proto
