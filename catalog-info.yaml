@@ -12,7 +12,7 @@ metadata:
     - url: https://github.com/tamarakaufler/test-documentation-service-to-delete
       title: GitHub repo
 spec:
-  type: service
-  owner: platform
+  type: documentation
+  owner: backend
   lifecycle: experimental
   system: backend
