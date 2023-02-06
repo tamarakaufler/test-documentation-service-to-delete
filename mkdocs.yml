@@ -15,7 +15,8 @@ theme:
         - django
 
 nav:
-    - Software Architecture: README.md
+    - About: README.md
+    - Software Architecture: system_arc42_template.md
     - Headines V2: headlines-v2/arc42_template.md
     - Content App: content-app/arc42_template.md
     # - Protobuf documentation: docs.md

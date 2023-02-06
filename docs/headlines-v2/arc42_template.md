@@ -8,8 +8,8 @@
 
 | Role/Name   | Contact        | Expectations       |
 |-------------|----------------|--------------------|
-| *\<Role-1>* | *\<Contact-1>* | *\<Expectation-1>* |
-| *\<Role-2>* | *\<Contact-2>* | *\<Expectation-2>* |
+| *<< Role-1 >>* | *<< Contact-1 >>* | *<< Expectation-1 >>* |
+| *<< Role-2 >>* | *<< Contact-2 >>* | *<< Expectation-2 >>* |
 
 # Architecture Constraints
 
@@ -17,44 +17,17 @@
 
 ## Business Context
 
-1
-
-<Diagram or Table>
-
-2
-
-**Diagram or Table**
-
-3
-
-**<Diagram or Table>**
-
-4
-
-\<Diagram or Table>
-
-5
-
-**\<Diagram or Table>**
-
-6
-
 **<< Diagram or Table >>**
 
-this|is|a|table
-----|----|----|----
-this|is|number|one
-this|is|number|two
-
-**\<optionally: Explanation of external domain interfaces>**
+**<< optionally: Explanation of external domain interfaces >>**
 
 ## Technical Context
 
-**\<Diagram or Table>**
+**<< Diagram or Table >>**
 
-**\<optionally: Explanation of technical interfaces>**
+**<< optionally: Explanation of technical interfaces >>**
 
-**\<Mapping Input/Output to Channels>**
+**<< Mapping Input/Output to Channels >>**
 
 # Solution Strategy
 
@@ -62,136 +35,136 @@ this|is|number|two
 
 ## Whitebox Overall System
 
-***\<Overview Diagram>***
+***<< Overview Diagram >>***
 
 Motivation  
-*\<text explanation>*
+*<< text explanation >>*
 
 Contained Building Blocks  
-*\<Description of contained building block (black boxes)>*
+*<< Description of contained building block (black boxes) >>*
 
 Important Interfaces  
-*\<Description of important interfaces>*
+*<< Description of important interfaces >>*
 
-### \<Name black box 1>
+### << Name black box 1 >>
 
-*\<Purpose/Responsibility>*
+*<< Purpose/Responsibility >>*
 
-*\<Interface(s)>*
+*<< Interface(s) >>*
 
-*\<(Optional) Quality/Performance Characteristics>*
+*<< (Optional) Quality/Performance Characteristics >>*
 
-*\<(Optional) Directory/File Location>*
+*<< (Optional) Directory/File Location >>*
 
-*\<(Optional) Fulfilled Requirements>*
+*<< (Optional) Fulfilled Requirements >>*
 
-*\<(optional) Open Issues/Problems/Risks>*
+*<< (optional) Open Issues/Problems/Risks >>*
 
-### \<Name black box 2>
+### << Name black box 2 >>
 
-*\<black box template>*
+*<< black box template >>*
 
-### \<Name black box n>
+### << Name black box 99 >>
 
-*\<black box template>*
+*<< black box template >>*
 
-### \<Name interface 1>
+### << Name interface 1 >>
 
 …
 
-### \<Name interface m>
+### << Name interface 99 >>
 
 ## Level 2
 
-### White Box *\<building block 1>*
+### White Box *<<building block 1>>*
 
-*\<white box template>*
+<< white box template >>
 
-### White Box *\<building block 2>*
+### White Box *<<building block 2>>*
 
-*\<white box template>*
+<< white box template >>
 
 …
 
-### White Box *\<building block m>*
+### White Box *<<building block 99>>*
 
-*\<white box template>*
+<< white box template >>
 
 ## Level 3
 
-### White Box \<\_building block x.1\_\>
+### White Box <<\_building block x.1\_>>
 
-*\<white box template>*
+*<< white box template >>*
 
-### White Box \<\_building block x.2\_\>
+### White Box <<\_building block x.2\_\>>
 
-*\<white box template>*
+*<< white box template >>*
 
-### White Box \<\_building block y.1\_\>
+### White Box <<\_building block y.1\_\>>
 
-*\<white box template>*
+*<< white box template >>*
 
 # Runtime View
 
-## \<Runtime Scenario 1>
+## << Runtime Scenario 1 >>
 
--   *\<insert runtime diagram or textual description of the scenario>*
+-   *<< insert runtime diagram or textual description of the scenario >>*
 
--   *\<insert description of the notable aspects of the interactions
-    between the building block instances depicted in this diagram.>*
+-   *<< insert description of the notable aspects of the interactions
+    between the building block instances depicted in this diagram. >>*
 
-## \<Runtime Scenario 2>
+## << Runtime Scenario 2 >>
 
 ## …
 
-## \<Runtime Scenario n>
+## << Runtime Scenario n >>
 
 # Deployment View
 
 ## Infrastructure Level 1
 
-***\<Overview Diagram>***
+***<< Overview Diagram >>***
 
 Motivation  
-*\<explanation in text form>*
+*<< explanation in text form >>*
 
 Quality and/or Performance Features  
-*\<explanation in text form>*
+*<< explanation in text form >>*
 
 Mapping of Building Blocks to Infrastructure  
-*\<description of the mapping>*
+*<< description of the mapping >>*
 
 ## Infrastructure Level 2
 
-### *\<Infrastructure Element 1>*
+### *<< Infrastructure Element 1 >>*
 
-*\<diagram + explanation>*
+*<< diagram + explanation >>*
 
-### *\<Infrastructure Element 2>*
+### *<< Infrastructure Element 2 >>*
 
-*\<diagram + explanation>*
+*<< diagram + explanation >>*
 
 …
 
-### *\<Infrastructure Element n>*
+### *<< Infrastructure Element n >>*
 
-*\<diagram + explanation>*
+*<< diagram + explanation >>*
 
 # Cross-cutting Concepts
 
-## *\<Concept 1>*
+## *<< Concept 1 >>*
 
-*\<explanation>*
+*<< explanation >>*
 
-## *\<Concept 2>*
+## *<<Concept 2>>*
 
-*\<explanation>*
+*<< explanation >>*
 
 …
 
-## *\<Concept n>*
+## *<< Concept n >>*
 
-*\<explanation>*
+*<< explanation >>*
 
 # Architecture Decisions
 
@@ -207,5 +180,5 @@ Mapping of Building Blocks to Infrastructure
 
 | Term        | Definition        |
 |-------------|-------------------|
-| *\<Term-1>* | *\<definition-1>* |
-| *\<Term-2>* | *\<definition-2>* |
+| *<< Term-1 >>* | *<< definition-1 >>* |
+| *<< Term-2 >>* | *<< definition-2 >>* |
