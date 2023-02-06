@@ -66,7 +66,7 @@ Important Interfaces
 
 *<< black box template >>*
 
-### << Name black box 99 >>
+### << Name black box n >>
 
 *<< black box template >>*
 
@@ -74,21 +74,21 @@ Important Interfaces
 
 …
 
-### << Name interface 99 >>
+### << Name interface n >>
 
 ## Level 2
 
-### White Box *<<building block 1>>*
+### White Box *<< building block 1 >>*
 
 << white box template >>
 
-### White Box *<<building block 2>>*
+### White Box *<< building block 2 >>*
 
 << white box template >>
 
 …
 
-### White Box *<<building block 99>>*
+### White Box *<<building block n>>*
 
 << white box template >>
 
@@ -158,7 +158,7 @@ Mapping of Building Blocks to Infrastructure
 
 *<< explanation >>*
 
-## *<<Concept 2>>*
+## *<< Concept 2 >>*
 
 *<< explanation >>*
 
